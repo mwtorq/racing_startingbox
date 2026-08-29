@@ -1,0 +1,155 @@
+Jack Russell Racing Starting Box — Specification and Build Instructions
+
+Overview
+- Purpose: Three-compartment dog starting box with a small tool compartment (operator/right side). Front is a single acrylic sheet covering the three dog openings (not the tool bay). Rear doors drop down (bottom-hinged) and are released independently using stainless slide bolts (quick-release slide-pin/slide bolt). Front top-hinges open upward to horizontal and is supported by a removable prop rod.
+- Materials: 3/4" pressure-treated plywood for structure. 3/32" clear acrylic sheet for front cover across the three dog openings. Exterior-grade screws and stainless hardware where noted.
+- Finish: You will stain the finished box; this spec does not include step-by-step weatherproofing beyond using exterior-grade hardware.
+
+Design constraints and key inputs (confirmed)
+1) Three dog compartments (left-to-right) interior usable dimensions, each:
+   - Width: 9.00"
+   - Height: 10.00"
+   - Bottom usable depth (inside floor to back inside): 15.00"
+2) Tool compartment (operator/right side): interior usable: 6.00" W × 10.00" H × 15.00" D
+3) Construction: panels 3/4" (0.75") thick pressure-treated plywood.
+4) No floor (box sits directly on ground).
+5) Front plexiglass covers three dog openings only, not the tool bay; acrylic is surface-mounted with trim strips.
+6) Front slope: bottom front edge projects 4.00" farther forward than top front edge (front bottom projects 4" forward of top).
+7) No skids.
+8) Operator side: right side when viewed from the back.
+9) Latches: slide-bolt quick-release pins for rear and tool doors (confirmed).
+
+Overall external & derived dimensions
+- Vertical panel thickness: 0.75" (all plywood panels)
+- Internal (per dog): 9.00" W × 10.00" H × 15.00" D (usable)
+- Tool bay internal: 6.00" W × 10.00" H × 15.00" D
+- Internal total width = 9 + 9 + 9 + 6 = 33.00"
+- Number of full-thickness vertical panels across width = 5 (left side, right side, and 3 internal dividers)
+- Total external width = 33.00" + 5 × 0.75" = 36.75" (36 3/4")
+- Top internal depth (inside back to inside top-front) = 11.00" (because front bottom is 4" further forward than top)
+- Bottom internal depth = 15.00"
+- Top panel external depth = 11.00" + 0.75" = 11.75"
+- Bottom external depth (sides/dividers) = 15.00" + 0.75" = 15.75"
+- External height overall = internal height + top panel thickness = 10.00" + 0.75" = 10.75"
+
+Cut list (3/4" pressure-treated plywood)
+Note: dimensions given are final panel cut sizes. Allow 1/8" clearance for moving doors and between fitted panels unless otherwise noted.
+Primary structural panels
+1) Left side panel — trapezoid
+   - Quantity: 1
+   - Vertical height (outside): 10.75"
+   - Back depth (bottom): 15.75"
+   - Top depth (front top): 11.75"
+   - (Cut as trapezoid: front slope difference creates the 4.00" projection at the bottom edge.)
+2) Right side panel — trapezoid (mirror of left)
+   - Quantity: 1
+   - Same dimensions as left side
+3) Vertical dividers (between compartments)
+   - Quantity: 3
+   - Each: trapezoid (same front slope as sides)
+   - Height: 10.75"
+   - Back depth: 15.75"
+   - Top depth: 11.75"
+4) Top panel
+   - Quantity: 1
+   - Size: 36.75" W × 11.75" D × 0.75" thick
+5) Back panel (full back)
+   - Quantity: 1
+   - Size: 36.75" W × 10.75" H × 0.75"
+   - Note: dog/tool drop doors are cut from or mounted into this back panel as separate door pieces (see below)
+
+Rear / drop doors (bottom-hinged)
+6) Dog rear doors (each)
+   - Quantity: 3
+   - Cut size (per door): 9.25" W × 10.00" H × 0.75"
+     - (9.00" interior width + 1/8" clearance each side = 9.25")
+7) Tool rear door
+   - Quantity: 1
+   - Cut size: 6.25" W × 10.00" H × 0.75"
+
+Front plexi & trim
+8) Front acrylic sheet (covers three dog openings only)
+   - Quantity: 1
+   - Nominal size: 28.50" W × 10.00" H × 3/32"
+     - Calculation: internal widths across dog area = 9 + 0.75 + 9 + 0.75 + 9 = 28.5" (two divider thicknesses included). Final cut: leave ~1/8" margin for thermal expansion: recommend trimming to 28.375" × 9.875" for installation.
+9) Front trim strips (3/4" × 3/4")
+   - Top trim length: 28.50"
+   - Bottom trim length: 28.50"
+   - Two vertical trim strips: 10.00" each
+10) Front hinge-mounting wooden strip (to attach piano hinge)
+   - Quantity: 1 strip, length 28.50"
+11) Filler/hinge blocks
+   - Several 2.0" × 11.75" blocks for hinge and latch mounting from offcuts
+
+Material yield
+- All panels can be cut from a single 4' × 8' plywood sheet (48" × 96") with careful nesting; recommended to purchase one extra sheet if you want extra offcuts for blocks and trim.
+
+Hardware list (stainless or exterior-grade recommended)
+- Piano hinge(s) for front: 30" piano hinge (or 2×12" hinges) — Quantity: 1 (or 2)
+- Stainless screws for hinge mounting (#8 × 3/4" or 1" exterior)
+- Rear door hinges (bottom-hinge) — small butt/strap hinges: 4–8 small hinges (2 per door recommended for strength) — Quantity: 8 (recommended)
+- Slide-bolt quick-release pins (stainless slide bolts/pins) — one per door — Quantity: 4
+- Plexiglass screws + neoprene/rubber washers (for acrylic mounting): 12–16 #6 pan-head screws + washers
+- Surface-mounted carry handles (left & right): 2
+- Prop rod + bracket for front panel (removable prop) — Quantity: 1
+- Wood screws (exterior-grade): assorted #8×1.5" and #10×2"
+- Wood glue (construction-grade exterior)
+- Small angle brackets (optional reinforcement): 8
+- Sandpaper, stain supplies
+- Optional: rubber edge trim for front bottom inside edge
+
+Assembly instructions (step-by-step)
+Preparation
+- Cut all panels per the cut list. Label pieces. Sand all cut edges and remove splinters.
+- Pre-drill screw holes where near edges and where mounting hinges/trim on plywood to reduce splitting.
+- Dry-assemble without glue first to verify fit and clearances.
+
+1) Layout & back attachment
+- Place left and right side panels upright (internal faces facing inward) on a flat assembly surface.
+- Position the back panel between side panels, flush to top edges. Attach with glue + screws from the outside/back into the side panel edges.
+
+2) Install vertical dividers
+- Mark positions: starting from left inner face, layout dog compartments at 9" internal widths with 1/8" gaps for clearance. Position the three dividers so internal widths between dividers are 9", 9", and 9" respectively, with the final gap to the right side providing the 6" tool bay width.
+- Glue and screw dividers to the back panel and to the top edges where practical; use clamps and ensure dividers are square and aligned with the slanted front edges.
+
+3) Install top panel
+- Place top panel atop side panels and dividers. Glue and screw down from the top into the supporting vertical panels. Ensure front top edge aligns with the top front edges of dividers and side panels.
+
+4) Prepare rear doors
+- Cut or prepare the rear door panels sized above. Fit each door into its opening with ~1/8" clearance on sides and top.
+- Mount bottom hinges to each door and to the back panel framing so doors drop down.
+- Attach slide-bolt latches at the top edge of each door; verify ease of sliding and that the bolt engages into a receiving bracket or plate on the back panel.
+
+5) Front assembly (plexi & hinge)
+- Attach the wooden hinge-mounting strip across the top of the dog opening area. Attach the piano hinge to that strip and then to the top panel so the entire front assembly can be hinged upward.
+- Surface-mount the acrylic to the front using the trim strips and plexi screws + neoprene washers. Leave about 1/8" clearance around the acrylic for thermal expansion. Secure trim strips with countersunk screws.
+- Install the removable prop rod brackets so the front can be held horizontal when open.
+
+6) Tool compartment
+- Ensure the rightmost divider and right side form the 6" W × 10" H × 15" D tool compartment. Mount the tool door similarly to dog doors (drop-down) with its own slide-bolt.
+
+7) Handles & final hardware
+- Mount surface handles on the left and right external sides, centered along the length. Use washers and screws for strength.
+- Install any optional angle brackets for reinforcement at corners.
+
+8) Test and finish
+- Test opening the front, verifying it holds horizontal with the prop. Test each rear door opening and latching. Adjust gaps/sanding as necessary.
+- Apply stain per your finish plan. Re-check hardware after staining and final assembly.
+
+Operational notes and suggestions
+- Slide-bolts: use quick pull-pin style slide bolts (not threaded through-bolts) for fast single-person releases.
+- If a single simultaneous release is desired in the future, add a mechanical linkage to withdraw the top pins simultaneously (this design keeps them independent).
+- Use neoprene washers under plexi screws to prevent cracking and allow expansion.
+- Because the box sits directly on ground, place on firm, level area; tamp ground under compartments if needed for an even dog floor.
+
+SVG files in this repo
+- cut_layout.svg — layout of cut pieces and approximate 4'×8' nesting
+- assembly_exploded.svg — exploded view and assembly callouts
+
+Conversion notes
+- To get PNG/PDF from SVG: open the SVG in a browser and Print → Save as PDF, or use Inkscape/Illustrator to export to PNG or PDF.
+
+Contact
+- If you want revised dimensions, different clearances, or the files optimized for CNC nesting (with toolpath margins), tell me which changes and I will update the repo.
+
+End of specification
