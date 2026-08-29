@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <style>
+    .box { fill: #fffbe6; stroke: #222; stroke-width:1.5 }
+    .txt { font-family: Arial, Helvetica, sans-serif; font-size:14px; fill:#000 }
+    .label { font-family: Arial; font-size:12px; fill:#000 }
+  </style>
+
+  <!-- Indicate sheet outline (48" x 96" scaled to px) -->
+  <rect x="20" y="20" width="880" height="880" fill="#f3f3f3" stroke="#999" stroke-width="2"/>
+  <text x="30" y="40" class="txt">Plywood sheet layout (48" x 96") — scale drawing</text>
+
+  <!-- Side panel left trapezoid -->
+  <polygon points="40,140 260,140 320,360 40,360" class="box"/>
+  <text x="60" y="160" class="label">Left side panel</text>
+  <text x="60" y="180" class="label">H 10.75"</text>
+  <text x="60" y="195" class="label">Top depth 11.75"</text>
+  <text x="60" y="210" class="label">Bottom depth 15.75"</text>
+
+  <!-- Side panel right (mirror) -->
+  <polygon points="520,140 740,140 740,360 520,360" class="box"/>
+  <text x="540" y="160" class="label">Right side panel (mirror)</text>
+  <text x="540" y="180" class="label">H 10.75"</text>
+  <text x="540" y="195" class="label">Top depth 11.75"</text>
+  <text x="540" y="210" class="label">Bottom depth 15.75"</text>
+
+  <!-- Top panel -->
+  <rect x="40" y="400" width="740" height="120" class="box"/>
+  <text x="60" y="430" class="label">Top panel — 36.75" × 11.75"</text>
+
+  <!-- Back panel -->
+  <rect x="40" y="540" width="740" height="120" class="box"/>
+  <text x="60" y="570" class="label">Back panel — 36.75" × 10.75"</text>
+
+  <!-- Doors -->
+  <rect x="820" y="140" width="110" height="140" class="box"/>
+  <text x="830" y="170" class="label">Dog door A</text>
+  <text x="830" y="190" class="label">9.25" × 10"</text>
+
+  <rect x="940" y="140" width="110" height="140" class="box"/>
+  <text x="950" y="170" class="label">Dog door B</text>
+  <text x="950" y="190" class="label">9.25" × 10"</text>
+
+  <rect x="820" y="300" width="110" height="140" class="box"/>
+  <text x="830" y="330" class="label">Dog door C</text>
+  <text x="830" y="350" class="label">9.25" × 10"</text>
+
+  <rect x="940" y="300" width="80" height="140" class="box"/>
+  <text x="950" y="330" class="label">Tool door</text>
+  <text x="950" y="350" class="label">6.25" × 10"</text>
+
+  <!-- Plexi -->
+  <rect x="820" y="480" width="570" height="140" fill="#e0f7ff" stroke="#0aa" stroke-width="1.2"/>
+  <text x="830" y="520" class="label">Plexiglass — 28.50" × 10.00" (3/32")</text>
+
+  <text x="40" y="700" class="txt">Notes:  Drawn to approximate scale for layout only. Cut tolerances: leave 1/8" clearance for door gaps and plexi expansion.</text>
+</svg>
