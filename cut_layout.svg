@@ -1,57 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
   <style>
-    .box { fill: #fffbe6; stroke: #222; stroke-width:1.5 }
+    .sheet { fill:#f3f3f3; stroke:#999; stroke-width:2 }
+    .part { fill:#fffbe6; stroke:#222; stroke-width:1.2 }
+    .cut { fill:#fee; stroke:#c33; stroke-width:1 }
     .txt { font-family: Arial, Helvetica, sans-serif; font-size:14px; fill:#000 }
-    .label { font-family: Arial; font-size:12px; fill:#000 }
+    .label { font-family: Arial, font-size:12px; fill:#000 }
+    .dim { font-family: Arial, font-size:12px; fill:#006; }
+    .dash { stroke:#006; stroke-width:1; stroke-dasharray:6 3; fill:none }
   </style>
 
-  <!-- Indicate sheet outline (48" x 96" scaled to px) -->
-  <rect x="20" y="20" width="880" height="880" fill="#f3f3f3" stroke="#999" stroke-width="2"/>
-  <text x="30" y="40" class="txt">Plywood sheet layout (48" x 96") — scale drawing</text>
+  <rect x="20" y="20" width="1120" height="880" class="sheet"/>
+  <text x="30" y="44" class="txt">Plywood sheet layout (48" x 96") — parts and divider pieces included</text>
 
-  <!-- Side panel left trapezoid -->
-  <polygon points="40,140 260,140 320,360 40,360" class="box"/>
-  <text x="60" y="160" class="label">Left side panel</text>
-  <text x="60" y="180" class="label">H 10.75"</text>
-  <text x="60" y="195" class="label">Top depth 11.75"</text>
-  <text x="60" y="210" class="label">Bottom depth 15.75"</text>
+  <!-- Left side panel (trapezoid) -->
+  <polygon points="40,120 280,120 360,420 40,420" class="part"/>
+  <text x="60" y="140" class="label">Left side panel (trapezoid)</text>
+  <text x="60" y="160" class="label">H 10.75" | Top depth 11.75" | Back depth 15.75"</text>
 
-  <!-- Side panel right (mirror) -->
-  <polygon points="520,140 740,140 740,360 520,360" class="box"/>
-  <text x="540" y="160" class="label">Right side panel (mirror)</text>
-  <text x="540" y="180" class="label">H 10.75"</text>
-  <text x="540" y="195" class="label">Top depth 11.75"</text>
-  <text x="540" y="210" class="label">Bottom depth 15.75"</text>
+  <!-- Right side panel (mirror) -->
+  <polygon points="760,120 1000,120 1120,420 760,420" class="part"/>
+  <text x="780" y="140" class="label">Right side panel (mirror)</text>
+  <text x="780" y="160" class="label">H 10.75" | Top depth 11.75" | Back depth 15.75"</text>
+
+  <!-- Dividers (3) -->
+  <polygon points="320,120 360,120 420,420 320,420" class="part"/>
+  <text x="330" y="140" class="label">Divider 1 (trapezoid)</text>
+  <polygon points="460,120 500,120 560,420 460,420" class="part"/>
+  <text x="470" y="140" class="label">Divider 2 (trapezoid)</text>
+  <polygon points="680,120 720,120 780,420 680,420" class="part"/>
+  <text x="690" y="140" class="label">Divider 3 (trapezoid)</text>
 
   <!-- Top panel -->
-  <rect x="40" y="400" width="740" height="120" class="box"/>
-  <text x="60" y="430" class="label">Top panel — 36.75" × 11.75"</text>
+  <rect x="40" y="460" width="1120" height="120" class="part"/>
+  <text x="60" y="490" class="label">Top panel — 36.75" × 11.75"</text>
 
-  <!-- Back panel -->
-  <rect x="40" y="540" width="740" height="120" class="box"/>
-  <text x="60" y="570" class="label">Back panel — 36.75" × 10.75"</text>
+  <!-- Back panel with door cutouts -->
+  <rect x="40" y="600" width="1120" height="220" class="part"/>
+  <text x="60" y="630" class="label">Back panel — 36.75" × 10.75" (shown with door cutouts)</text>
 
-  <!-- Doors -->
-  <rect x="820" y="140" width="110" height="140" class="box"/>
-  <text x="830" y="170" class="label">Dog door A</text>
-  <text x="830" y="190" class="label">9.25" × 10"</text>
+  <!-- Door cutouts on back panel (represent openings) -->
+  <rect x="160" y="650" width="140" height="200" class="cut"/>
+  <text x="170" y="760" class="label">Dog opening A — 9.00" W × 10.00" H (cutout)</text>
+  <rect x="310" y="650" width="140" height="200" class="cut"/>
+  <text x="320" y="760" class="label">Dog opening B — 9.00" W × 10.00" H (cutout)</text>
+  <rect x="460" y="650" width="140" height="200" class="cut"/>
+  <text x="470" y="760" class="label">Dog opening C — 9.00" W × 10.00" H (cutout)</text>
+  <rect x="610" y="650" width="100" height="200" class="cut"/>
+  <text x="620" y="760" class="label">Tool opening — 6.00" W × 10.00" H (cutout)</text>
 
-  <rect x="940" y="140" width="110" height="140" class="box"/>
-  <text x="950" y="170" class="label">Dog door B</text>
-  <text x="950" y="190" class="label">9.25" × 10"</text>
+  <!-- Door pieces (to be cut from panel or made separate) -->
+  <rect x="820" y="120" width="140" height="200" class="part"/>
+  <text x="830" y="240" class="label">Dog door piece (9.25" × 10") — qty 3</text>
+  <rect x="980" y="120" width="100" height="200" class="part"/>
+  <text x="990" y="240" class="label">Tool door piece (6.25" × 10")</text>
 
-  <rect x="820" y="300" width="110" height="140" class="box"/>
-  <text x="830" y="330" class="label">Dog door C</text>
-  <text x="830" y="350" class="label">9.25" × 10"</text>
+  <!-- Dimension callouts for internal layout (schematic) -->
+  <line x1="170" y1="550" x2="170" y2="620" class="dash"/>
+  <text x="180" y="565" class="dim">9.00" (dog width)</text>
+  <line x1="320" y1="550" x2="320" y2="620" class="dash"/>
+  <text x="330" y="565" class="dim">9.00" (dog width)</text>
+  <line x1="470" y1="550" x2="470" y2="620" class="dash"/>
+  <text x="480" y="565" class="dim">9.00" (dog width)</text>
+  <line x1="620" y1="550" x2="620" y2="620" class="dash"/>
+  <text x="630" y="565" class="dim">6.00" (tool bay)</text>
 
-  <rect x="940" y="300" width="80" height="140" class="box"/>
-  <text x="950" y="330" class="label">Tool door</text>
-  <text x="950" y="350" class="label">6.25" × 10"</text>
-
-  <!-- Plexi -->
-  <rect x="820" y="480" width="570" height="140" fill="#e0f7ff" stroke="#0aa" stroke-width="1.2"/>
-  <text x="830" y="520" class="label">Plexiglass — 28.50" × 10.00" (3/32")</text>
-
-  <text x="40" y="700" class="txt">Notes:  Drawn to approximate scale for layout only. Cut tolerances: leave 1/8" clearance for door gaps and plexi expansion.</text>
+  <text x="40" y="870" class="txt">Notes: Cutouts shown on back panel are the interior openings for the drop-down doors. If you prefer to keep a full back panel and mount hinge-blocks instead of cutting openings here, keep the back panel whole and use hinge blocks positioned at the bottom edge of each opening (recommend 2" high blocks).</text>
 </svg>
